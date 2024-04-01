@@ -14,11 +14,10 @@ function setBestCustomer() {
 setBestCustomer(); 
 
 function overwriteBestCustomer() {
-    bestCustomer = "maybe bob";
+  console.log(bestCustomer = "maybe bob");
 }
 
-//overwriteBestCustomer(); 
-//console.log(bestCustomer);
+overwriteBestCustomer();
 
 const leastFavoriteCustomer = "James"; 
 
